@@ -281,7 +281,7 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section id="contato" className="py-20 md:py-32 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
+      <section id="contato" className="py-20 md:py-32 bg-gradient-to-r from-blue-900 to-slate-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Pronto para Analisar?
@@ -292,18 +292,18 @@ export default function Index() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white hover:bg-gray-100 text-slate-900 px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
               Solicitar Orçamento
             </button>
             <a
               href="mailto:contato@example.com"
-              className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-lg font-semibold transition-colors"
+              className="border-2 border-blue-400 text-blue-400 hover:bg-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               Email de Contato
             </a>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-gray-700 flex flex-col sm:flex-row gap-8 justify-center text-sm">
+          <div className="mt-12 pt-8 border-t border-blue-800 flex flex-col sm:flex-row gap-8 justify-center text-sm">
             <div>
               <p className="font-semibold mb-1">Telefone</p>
               <p className="text-gray-300">(11) 9999-9999</p>
@@ -321,8 +321,8 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-200 py-8">
-        <div className="container mx-auto px-4 text-center text-slate-600 text-sm">
+      <footer className="bg-slate-950 border-t border-blue-900 py-8">
+        <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
           <p>
             © 2024 Perícia Grafotécnica. Todos os direitos reservados. | Sigilo
             profissional garantido
