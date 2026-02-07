@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Search } from "lucide-react";
 
 export default function Header() {
   return (
@@ -6,14 +7,14 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-5 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
           <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-            PG
+            <Search size={20} />
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold text-white leading-none">
-              Pericia
+              Verita
             </span>
             <span className="text-xs text-blue-400 font-medium">
-              Grafotecnica
+              Assessoria Técnica
             </span>
           </div>
         </Link>
