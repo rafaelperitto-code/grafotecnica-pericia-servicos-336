@@ -190,54 +190,54 @@ export default function Index() {
       </section>
 
       {/* Why Choose Section */}
-      <section className="py-20 md:py-32 bg-white">
+      <section className="py-20 md:py-32 bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                 Por Que Nos Escolher
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-white">
                       Expertise Reconhecida
                     </p>
-                    <p className="text-slate-600 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Profissional certificado com metodologia científica comprovada
                     </p>
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-white">
                       Sigilo Profissional
                     </p>
-                    <p className="text-slate-600 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Conformidade com ética profissional e proteção de dados
                     </p>
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-white">
                       Relatórios Detalhados
                     </p>
-                    <p className="text-slate-600 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Documentação técnica clara e acessível para diferentes contextos
                     </p>
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
                   <div>
-                    <p className="font-semibold text-slate-900">
+                    <p className="font-semibold text-white">
                       Atendimento Personalizado
                     </p>
-                    <p className="text-slate-600 text-sm">
+                    <p className="text-gray-400 text-sm">
                       Soluções customizadas de acordo com suas necessidades específicas
                     </p>
                   </div>
@@ -245,32 +245,32 @@ export default function Index() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-slate-50 rounded-2xl p-8 border border-blue-100">
+            <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-2xl p-8 border border-blue-700">
               <div className="space-y-6">
-                <div className="bg-white rounded-xl p-6">
-                  <p className="text-sm text-slate-600 mb-2">Metodologia</p>
-                  <p className="text-lg font-semibold text-slate-900">
+                <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
+                  <p className="text-sm text-blue-300 mb-2">Metodologia</p>
+                  <p className="text-lg font-semibold text-white">
                     Abordagem Científica
                   </p>
-                  <p className="text-sm text-slate-600 mt-2">
+                  <p className="text-sm text-gray-400 mt-2">
                     Baseada em neuropsicologia e análise comportamental
                   </p>
                 </div>
-                <div className="bg-white rounded-xl p-6">
-                  <p className="text-sm text-slate-600 mb-2">Validade</p>
-                  <p className="text-lg font-semibold text-slate-900">
+                <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
+                  <p className="text-sm text-blue-300 mb-2">Validade</p>
+                  <p className="text-lg font-semibold text-white">
                     Aceita em Processos Legais
                   </p>
-                  <p className="text-sm text-slate-600 mt-2">
+                  <p className="text-sm text-gray-400 mt-2">
                     Pareceres admissíveis em juízo
                   </p>
                 </div>
-                <div className="bg-white rounded-xl p-6">
-                  <p className="text-sm text-slate-600 mb-2">Tempo</p>
-                  <p className="text-lg font-semibold text-slate-900">
+                <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
+                  <p className="text-sm text-blue-300 mb-2">Tempo</p>
+                  <p className="text-lg font-semibold text-white">
                     Entrega Rápida
                   </p>
-                  <p className="text-sm text-slate-600 mt-2">
+                  <p className="text-sm text-gray-400 mt-2">
                     Relatórios em 5-10 dias úteis
                   </p>
                 </div>
