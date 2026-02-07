@@ -32,6 +32,12 @@ export default function Header() {
           >
             Sobre
           </Link>
+          <Link
+            to="/blog"
+            className="text-gray-300 hover:text-white font-medium transition-colors text-sm"
+          >
+            Blog
+          </Link>
           <a
             href="#contato"
             className="text-gray-300 hover:text-white font-medium transition-colors text-sm"
