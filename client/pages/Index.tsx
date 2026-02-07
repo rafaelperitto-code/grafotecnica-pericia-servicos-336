@@ -67,37 +67,37 @@ export default function Index() {
               Nossos Serviços
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Soluções abrangentes em análise grafotécnica para diversos
-              contextos profissionais e legais
+              Soluções profissionais em análise grafotécnica com fundamentação
+              científica e rigor técnico
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Service Card 1 */}
             <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
               <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center mb-4">
                 <FileText className="text-blue-400" size={24} />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">
-                Perícia de Documentos
+                Parecer Técnico
               </h3>
               <p className="text-gray-300 mb-4">
-                Análise autenticidade de assinatura, verificação de fraudes
-                documentais e validação de escritas em contextos legais e
-                comerciais.
+                Emissão de pareceres técnicos fundamentados em análise
+                grafológica com metodologia científica comprovada para
+                contextos legais, corporativos e investigativos.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Autenticação de assinatura
+                  Análise pericial
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Detecção de fraudes
+                  Documentação técnica
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Comparação caligráfica
+                  Validade em juízo
                 </li>
               </ul>
             </div>
@@ -108,24 +108,25 @@ export default function Index() {
                 <Users className="text-purple-400" size={24} />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">
-                Análise Comportamental
+                Formulação de Quesitos
               </h3>
               <p className="text-gray-300 mb-4">
-                Avaliação de traços de personalidade, potencial de honestidade
-                e predisposições comportamentais através análise grafológica.
+                Orientação especializada para formulação de quesitos periciais
+                que garantam análise completa e adequada do objeto de perícia
+                conforme normas técnicas e jurídicas.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Perfil personalidade
+                  Quesitos específicos
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Análise integridade
+                  Conformidade legal
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Relatório técnico
+                  Consultoria prévia
                 </li>
               </ul>
             </div>
@@ -136,52 +137,25 @@ export default function Index() {
                 <Award className="text-amber-400" size={24} />
               </div>
               <h3 className="text-xl font-bold text-white mb-3">
-                Apoio Legal & Forense
+                Consultoria Prévia
               </h3>
               <p className="text-gray-300 mb-4">
-                Pareceres técnicos e depoimentos periciais para processos
-                judiciais, investigações e litígios comerciais e familiares.
+                Discussão inicial e avaliação exploratória dos documentos ou
+                questões grafotécnicas antes da perícia formal, orientando
+                sobre viabilidade e procedimentos.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Parecer pericial
+                  Avaliação preliminar
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Depoimento técnico
+                  Orientação técnica
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Consultoria legal
-                </li>
-              </ul>
-            </div>
-
-            {/* Service Card 4 */}
-            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
-              <div className="w-12 h-12 bg-emerald-900 rounded-lg flex items-center justify-center mb-4">
-                <Zap className="text-emerald-400" size={24} />
-              </div>
-              <h3 className="text-xl font-bold text-white mb-3">
-                Consultorias Especializadas
-              </h3>
-              <p className="text-gray-300 mb-4">
-                Assessoria em recrutamento, seleção de pessoal e análise de
-                compatibilidade comportamental para contextos corporativos.
-              </p>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Seleção pessoal
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Avaliação executiva
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
-                  Consultoria corporativa
+                  Sem compromisso
                 </li>
               </ul>
             </div>
