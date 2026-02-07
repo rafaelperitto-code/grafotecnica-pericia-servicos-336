@@ -144,11 +144,14 @@ export default function About() {
             desafios de análise grafotécnica
           </p>
 
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
             Solicitar Serviço
           </button>
         </div>
       </section>
+
+      {/* Contact Form Modal */}
+      <ContactForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
 
       {/* Footer */}
       <footer className="bg-slate-950 border-t border-blue-900 py-8">
