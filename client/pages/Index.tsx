@@ -18,11 +18,11 @@ export default function Index() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Revelando a Verdade através da
               <span className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent">
-                {" "}
-                Escrita
+                Perícia Grafotécnica
               </span>
+              <br />
+              Particular
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
