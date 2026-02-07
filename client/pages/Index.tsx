@@ -220,10 +220,10 @@ export default function Index() {
                 <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
                   <p className="text-sm text-blue-300 mb-2">Validade</p>
                   <p className="text-lg font-semibold text-white">
-                    Aceita em Processos Legais
+                    Válido para Contextos Legais
                   </p>
                   <p className="text-sm text-gray-400 mt-2">
-                    Pareceres admissíveis em juízo
+                    Pareceres tecnicamente confiáveis e fundamentados
                   </p>
                 </div>
                 <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
