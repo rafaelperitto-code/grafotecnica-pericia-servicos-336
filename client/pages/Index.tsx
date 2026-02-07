@@ -288,6 +288,9 @@ export default function Index() {
         </div>
       </footer>
 
+      {/* Contact Form Modal */}
+      <ContactForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+
       {/* WhatsApp Floating Button */}
       <a
         href="https://wa.me/5541996297915"
