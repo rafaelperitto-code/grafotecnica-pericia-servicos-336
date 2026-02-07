@@ -1,7 +1,10 @@
 import Header from "@/components/Header";
+import ContactForm from "@/components/ContactForm";
 import { Award, BookOpen, Users, Briefcase } from "lucide-react";
+import { useState } from "react";
 
 export default function About() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
   return (
     <div className="min-h-screen bg-slate-900">
       <Header />
