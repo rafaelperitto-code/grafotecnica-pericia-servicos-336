@@ -264,16 +264,12 @@ export default function Index() {
 
           <div className="mt-12 pt-8 border-t border-blue-800 flex flex-col sm:flex-row gap-8 justify-center text-sm">
             <div>
-              <p className="font-semibold mb-1">Telefone</p>
-              <p className="text-gray-300">(11) 9999-9999</p>
+              <p className="font-semibold mb-1">WhatsApp</p>
+              <p className="text-gray-300">(41) 99629-7915</p>
             </div>
             <div>
               <p className="font-semibold mb-1">Email</p>
-              <p className="text-gray-300">contato@periografo.com.br</p>
-            </div>
-            <div>
-              <p className="font-semibold mb-1">Localização</p>
-              <p className="text-gray-300">São Paulo, SP</p>
+              <p className="text-gray-300">contato.veritasassessoria@gmail.com</p>
             </div>
           </div>
         </div>
