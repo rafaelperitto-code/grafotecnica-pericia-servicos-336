@@ -214,7 +214,7 @@ export default function Index() {
                     Abordagem Científica
                   </p>
                   <p className="text-sm text-gray-400 mt-2">
-                    Baseada em neuropsicologia e análise comportamental
+                    Baseada em caligrafia científica e perícia forense
                   </p>
                 </div>
                 <div className="bg-slate-900 rounded-xl p-6 border border-blue-800">
