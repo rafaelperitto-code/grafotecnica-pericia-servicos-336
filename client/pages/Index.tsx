@@ -281,7 +281,7 @@ export default function Index() {
       <footer className="bg-slate-950 border-t border-blue-900 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
           <p>
-            © 2024 Verita Assessoria Técnica. Todos os direitos reservados. | Sigilo
+            © 2024 Veritas Assessoria Técnica. Todos os direitos reservados. | Sigilo
             profissional garantido
           </p>
         </div>
