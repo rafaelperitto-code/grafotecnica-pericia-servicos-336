@@ -40,21 +40,6 @@ export default function Index() {
                 Ver Portfólio
               </button>
             </div>
-
-            <div className="mt-12 flex flex-col sm:flex-row gap-8">
-              <div>
-                <p className="text-3xl font-bold text-white">500+</p>
-                <p className="text-gray-400 text-sm">Avaliações Concluídas</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-white">98%</p>
-                <p className="text-gray-400 text-sm">Taxa de Precisão</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-white">15+</p>
-                <p className="text-gray-400 text-sm">Anos de Experiência</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
