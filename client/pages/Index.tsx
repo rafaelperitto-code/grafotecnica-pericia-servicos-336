@@ -254,15 +254,15 @@ export default function Index() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
               Solicitar Orçamento
             </button>
-            <a
-              href="mailto:contato@example.com"
+            <button
+              onClick={() => setIsFormOpen(true)}
               className="border-2 border-blue-400 text-blue-400 hover:bg-blue-900 px-8 py-3 rounded-lg font-semibold transition-colors"
             >
-              Email de Contato
-            </a>
+              Enviar Mensagem
+            </button>
           </div>
 
           <div className="mt-12 pt-8 border-t border-blue-800 flex flex-col sm:flex-row gap-8 justify-center text-sm">
