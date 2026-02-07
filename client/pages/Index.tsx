@@ -60,13 +60,13 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="servicos" className="py-20 md:py-32 bg-slate-50">
+      <section id="servicos" className="py-20 md:py-32 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Nossos Serviços
             </h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
               Soluções abrangentes em análise grafotécnica para diversos
               contextos profissionais e legais
             </p>
@@ -74,113 +74,113 @@ export default function Index() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Service Card 1 */}
-            <div className="bg-white rounded-xl p-8 border border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <FileText className="text-blue-600" size={24} />
+            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+              <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center mb-4">
+                <FileText className="text-blue-400" size={24} />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
+              <h3 className="text-xl font-bold text-white mb-3">
                 Perícia de Documentos
               </h3>
-              <p className="text-slate-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Análise autenticidade de assinatura, verificação de fraudes
                 documentais e validação de escritas em contextos legais e
                 comerciais.
               </p>
-              <ul className="space-y-2 text-sm text-slate-600">
+              <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Autenticação de assinatura
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Detecção de fraudes
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Comparação caligráfica
                 </li>
               </ul>
             </div>
 
             {/* Service Card 2 */}
-            <div className="bg-white rounded-xl p-8 border border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                <Users className="text-purple-600" size={24} />
+            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+              <div className="w-12 h-12 bg-purple-900 rounded-lg flex items-center justify-center mb-4">
+                <Users className="text-purple-400" size={24} />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
+              <h3 className="text-xl font-bold text-white mb-3">
                 Análise Comportamental
               </h3>
-              <p className="text-slate-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Avaliação de traços de personalidade, potencial de honestidade
                 e predisposições comportamentais através análise grafológica.
               </p>
-              <ul className="space-y-2 text-sm text-slate-600">
+              <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Perfil personalidade
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Análise integridade
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Relatório técnico
                 </li>
               </ul>
             </div>
 
             {/* Service Card 3 */}
-            <div className="bg-white rounded-xl p-8 border border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center mb-4">
-                <Award className="text-amber-600" size={24} />
+            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+              <div className="w-12 h-12 bg-amber-900 rounded-lg flex items-center justify-center mb-4">
+                <Award className="text-amber-400" size={24} />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
+              <h3 className="text-xl font-bold text-white mb-3">
                 Apoio Legal & Forense
               </h3>
-              <p className="text-slate-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Pareceres técnicos e depoimentos periciais para processos
                 judiciais, investigações e litígios comerciais e familiares.
               </p>
-              <ul className="space-y-2 text-sm text-slate-600">
+              <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Parecer pericial
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Depoimento técnico
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Consultoria legal
                 </li>
               </ul>
             </div>
 
             {/* Service Card 4 */}
-            <div className="bg-white rounded-xl p-8 border border-slate-200 hover:border-slate-300 hover:shadow-lg transition-all">
-              <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4">
-                <Zap className="text-emerald-600" size={24} />
+            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+              <div className="w-12 h-12 bg-emerald-900 rounded-lg flex items-center justify-center mb-4">
+                <Zap className="text-emerald-400" size={24} />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">
+              <h3 className="text-xl font-bold text-white mb-3">
                 Consultorias Especializadas
               </h3>
-              <p className="text-slate-600 mb-4">
+              <p className="text-gray-300 mb-4">
                 Assessoria em recrutamento, seleção de pessoal e análise de
                 compatibilidade comportamental para contextos corporativos.
               </p>
-              <ul className="space-y-2 text-sm text-slate-600">
+              <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Seleção pessoal
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Avaliação executiva
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-600 flex-shrink-0" />
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Consultoria corporativa
                 </li>
               </ul>
