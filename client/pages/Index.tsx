@@ -35,7 +35,7 @@ export default function Index() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 group">
+              <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 group">
                 Solicitar Avaliação
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
