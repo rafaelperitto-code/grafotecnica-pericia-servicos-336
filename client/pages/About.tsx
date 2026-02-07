@@ -39,14 +39,14 @@ export default function About() {
               </h2>
               <p className="text-gray-300 mb-4">
                 Com mais de 15 anos de experiência em perícia grafotécnica,
-                desenvolvi expertise em análise forense de documentos,
-                autenticação de assinatura e avaliação comportamental através
-                da escrita.
+                desenvolvi expertise em análise forense de documentos e
+                autenticação de assinatura com rigor científico e metodologia
+                comprovada.
               </p>
               <p className="text-gray-300 mb-6">
-                Minha metodologia é fundamentada em neuropsicologia,
-                caligrafia científica e análise comportamental, garantindo
-                pareceres técnicos de alta qualidade e confiabilidade.
+                Minha metodologia é fundamentada em caligrafia científica,
+                técnicas forenses e análise pericial, garantindo pareceres
+                técnicos de alta qualidade, confiabilidade e validade jurídica.
               </p>
 
               <div className="space-y-4">
