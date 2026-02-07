@@ -93,45 +93,37 @@ export default function About() {
             Áreas de Especialização
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-slate-700 rounded-xl p-8 border border-blue-700">
               <h3 className="text-xl font-bold text-white mb-4">
-                Perícia Forense
+                Parecer Técnico
               </h3>
               <p className="text-gray-300">
-                Análise e autenticação de documentos para contextos legais,
-                investigações e processos judiciais com relatórios válidos em
-                juízo.
+                Emissão de pareceres fundamentados em análise grafológica
+                científica, válidos para contextos legais, corporativos e
+                investigativos com documentação técnica completa.
               </p>
             </div>
 
             <div className="bg-slate-700 rounded-xl p-8 border border-purple-700">
               <h3 className="text-xl font-bold text-white mb-4">
-                Análise Comportamental
+                Formulação de Quesitos
               </h3>
               <p className="text-gray-300">
-                Avaliação de características psicológicas, potencial
-                comportamental e traços de personalidade através da escrita.
+                Orientação especializada na formulação de quesitos periciais
+                adequados, garantindo análise completa conforme normas
+                técnicas e jurídicas aplicáveis.
               </p>
             </div>
 
             <div className="bg-slate-700 rounded-xl p-8 border border-amber-700">
               <h3 className="text-xl font-bold text-white mb-4">
-                Consultoria Corporativa
+                Consultoria Prévia
               </h3>
               <p className="text-gray-300">
-                Apoio em processos de recrutamento, seleção de pessoal e
-                avaliação de compatibilidade para contextos empresariais.
-              </p>
-            </div>
-
-            <div className="bg-slate-700 rounded-xl p-8 border border-emerald-700">
-              <h3 className="text-xl font-bold text-white mb-4">
-                Consultoria Especializada
-              </h3>
-              <p className="text-gray-300">
-                Pareceres técnicos personalizados para situações complexas que
-                exigem análise grafológica aprofundada e expertise específica.
+                Avaliação exploratória inicial dos documentos e questões
+                grafotécnicas, orientando sobre viabilidade, procedimentos e
+                próximos passos sem compromisso.
               </p>
             </div>
           </div>
