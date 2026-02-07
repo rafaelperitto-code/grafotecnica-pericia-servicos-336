@@ -11,7 +11,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold text-white leading-none">
-              Verita
+              Veritas
             </span>
             <span className="text-xs text-blue-400 font-medium">
               Assessoria Técnica
