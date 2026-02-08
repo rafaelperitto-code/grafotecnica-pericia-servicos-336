@@ -73,16 +73,29 @@ Em casos de estelionato, falsificação de documentos e crimes relacionados, a a
 ### 4. Litígios Comerciais e Familiares
 Em disputas envolvendo contratos questionados ou testamentos contestados, a perícia grafotécnica oferece certeza técnica baseada em análise científica.
 
-## Metodologia Científica da Análise Grafotécnica
+## Metodologia Científica da Perícia Grafotécnica
 
 A análise grafotécnica baseia-se em princípios científicos sólidos reconhecidos internacionalmente:
 
-- **Análise de Características Morfológicas**: Estuda a forma das letras, pressão da escrita, inclinação e dimensão dos caracteres
-- **Análise de Movimentos**: Avalia velocidade, ritmo, fluidez e padrão de execução da escrita
+- **Análise de Características Morfológicas**: Estuda a forma das letras, pressão da escrita, inclinação, dimensão dos caracteres e espaçamento
+- **Análise de Movimentos**: Avalia velocidade, ritmo, fluidez, padrão de execução e continuidade da escrita
+- **Análise de Hábitos Pessoais**: Identifica características particulares e idiossincrasias do indivíduo na sua maneira de escrever
 - **Comparação Técnica Sistemática**: Cotejo minucioso entre amostras de escrita questionada e escrita de referência
-- **Princípios de Invariabilidade e Variabilidade**: Identifica características invariáveis (únicas do indivíduo) e variáveis (que mudam conforme condições)
+- **Princípios de Invariabilidade e Variabilidade**: Identifica características invariáveis (únicas do indivíduo) e variáveis (que mudam conforme condições como superfície, instrumento ou posição)
 
-Essa metodologia permite ao perito grafotécnico chegar a conclusões técnicas confiáveis sobre a autenticidade de assinaturas e documentos.
+Essa metodologia científica permite ao perito grafotécnico chegar a conclusões técnicas confiáveis sobre a autenticidade de assinaturas e textos manuscritos.
+
+## Metodologia Científica da Documentoscopia
+
+A documentoscopia complementa a análise grafotécnica estudando:
+
+- **Características do Papel**: Composição, idade aparente, marcas d'água
+- **Características da Tinta**: Tipo, composição, compatibilidade com a suposta data do documento
+- **Impressões e Reproduções**: Análise de impressoras, fotocopiadoras, assinadores
+- **Marcas Físicas**: Rasgos, dobras, manchas que indicam alterações
+- **Envelhecimento**: Estudo do aspecto do documento ao longo do tempo
+
+Quando perícia grafotécnica e documentoscopia são combinadas, oferece-se análise completa tanto da escrita manuscrita quanto do suporte físico do documento.
 
 ## Pareceres Técnicos em Contextos Judiciais
 
