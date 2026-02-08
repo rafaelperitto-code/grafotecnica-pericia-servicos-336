@@ -38,9 +38,6 @@ export default function Index() {
                 Solicitar Avaliação
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-blue-600 text-blue-400 hover:bg-blue-900 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Ver Portfólio
-              </button>
             </div>
           </div>
         </div>
