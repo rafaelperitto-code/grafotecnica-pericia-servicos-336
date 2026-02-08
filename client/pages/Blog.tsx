@@ -81,11 +81,12 @@ export default function Blog() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {blogPosts.map((post) => (
-              <article
+              <Link
                 key={post.id}
-                className="bg-slate-700 rounded-xl overflow-hidden border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all group"
+                to={`/blog/${post.slug}`}
+                className="bg-slate-700 rounded-xl overflow-hidden border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all group block"
               >
-                <div className="p-8">
+                <article className="p-8 h-full flex flex-col">
                   <div className="flex items-center gap-4 mb-4">
                     <span className="text-xs font-semibold text-blue-400 bg-blue-900 px-3 py-1 rounded-full">
                       {post.category}
@@ -100,16 +101,16 @@ export default function Blog() {
                     {post.title}
                   </h2>
 
-                  <p className="text-gray-300 mb-6 line-clamp-3">
+                  <p className="text-gray-300 mb-6 line-clamp-3 flex-grow">
                     {post.excerpt}
                   </p>
 
-                  <button className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+                  <div className="inline-flex items-center gap-2 text-blue-400 group-hover:text-blue-300 font-semibold transition-colors">
                     Ler Artigo
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                  </button>
-                </div>
-              </article>
+                  </div>
+                </article>
+              </Link>
             ))}
           </div>
 
