@@ -115,11 +115,17 @@ Você deve considerar contratar um perito grafotécnico quando:
 - Investigação de fraude documental é necessária
 - Você necessita parecer técnico para juízo
 
+## Perícia Grafotécnica e Documentoscopia: Ferramentas Complementares
+
+A perícia grafotécnica e a documentoscopia são duas disciplinas diferentes mas complementares. Enquanto a perícia grafotécnica analisa a escrita manuscrita, a documentoscopia analisa as características físicas do documento. Quando utilizadas em conjunto, oferecem análise completa e confiável dos documentos.
+
 ## Conclusão
 
-A perícia grafotécnica é uma ferramenta indispensável para garantir justiça e proteção de direitos em contextos legais. Sua aplicação adequada pode fazer diferença significativa na resolução de casos complexos, oferecendo certeza técnica quando outros métodos são insuficientes.
+A perícia grafotécnica e a documentoscopia são ferramentas indispensáveis para garantir justiça e proteção de direitos em contextos legais. Sua aplicação adequada pode fazer diferença significativa na resolução de casos complexos, oferecendo certeza técnica quando outros métodos são insuficientes.
 
-Se você necessita de análise grafotécnica ou parecer técnico para seus documentos ou situação legal, entre em contato conosco para uma avaliação especializada e consultoria prévia sem compromisso.
+Um perito qualificado em ambas as disciplinas consegue fornecer parecer técnico completo que considere tanto a análise da escrita manuscrita quanto as características físicas do documento.
+
+Se você necessita de análise grafotécnica, documentoscopia ou parecer técnico completo para seus documentos ou situação legal, entre em contato conosco para uma avaliação especializada e consultoria prévia sem compromisso.
     `,
   },
 };
