@@ -33,13 +33,22 @@ Neste artigo, exploraremos como a perícia grafotécnica funciona e por que ela 
 
 ## O que é Perícia Grafotécnica?
 
-A perícia grafotécnica é o estudo científico da escrita manuscrita com objetivo de:
-- Estabelecer autenticidade de assinaturas
-- Identificar autores de documentos
-- Detectar falsificações e alterações
+A perícia grafotécnica é o estudo científico da **escrita manuscrita** com objetivo de:
+- Estabelecer autenticidade de assinaturas e textos manuscritos
+- Identificar autores de documentos através da análise de características de escrita
+- Detectar falsificações de escrita e assinatura
 - Fornecer pareceres técnicos válidos em juízo
 
-Utilizando metodologia comprovada e técnicas forenses avançadas, o perito grafotécnico consegue determinar com alto grau de confiabilidade características importantes de documentos, oferecendo pareceres que auxiliam em decisões judiciais.
+Utilizando metodologia comprovada e técnicas forenses avançadas, o perito grafotécnico consegue determinar com alto grau de confiabilidade características importantes da escrita manuscrita, oferecendo pareceres que auxiliam em decisões judiciais.
+
+## Documentoscopia: Uma Disciplina Complementar
+
+É importante esclarecer que **documentoscopia é uma disciplina diferente** da perícia grafotécnica, embora complementar:
+
+- **Perícia Grafotécnica**: Analisa a **escrita manuscrita** (traços, pressão, movimento, características do indivíduo)
+- **Documentoscopia**: Analisa o **documento físico** (papel, tinta, impressão, marcas de máquinas, envelhecimento, rasgos, etc.)
+
+Um perito especializado em ambas as áreas pode oferecer análise completa e holística dos documentos, considerando tanto a escrita quanto as características físicas do suporte.
 
 ## Principais Aplicações da Perícia Grafotécnica em Processos Legais
 
