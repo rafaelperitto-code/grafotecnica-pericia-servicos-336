@@ -1,14 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://veritasassessoria.com.br/sitemap.xml
+
+# Google
 User-agent: Googlebot
 Allow: /
 
+# Bing
 User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
 Allow: /
