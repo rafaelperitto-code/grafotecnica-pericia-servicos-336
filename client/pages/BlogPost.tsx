@@ -1,11 +1,14 @@
 import Header from "@/components/Header";
 import { ArrowLeft, Calendar } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const blogPostsData: Record<
   string,
   {
     title: string;
+    metaDescription: string;
+    keywords: string;
     date: string;
     category: string;
     author: string;
@@ -13,7 +16,11 @@ const blogPostsData: Record<
   }
 > = {
   "importancia-pericia-grafotecnica": {
-    title: "A Importância da Perícia Grafotécnica em Processos Legais",
+    title: "A Importância da Perícia Grafotécnica em Processos Legais - Veritas",
+    metaDescription:
+      "Entenda a importância da perícia grafotécnica em processos legais. Autenticação de assinatura, detecção de fraudes e investigações criminais com metodologia científica.",
+    keywords:
+      "perícia grafotécnica, autenticação assinatura, detecção fraudes, perícia legal, documentos falsificados, análise escrita, perícia forense",
     date: "15 de janeiro de 2024",
     category: "Perícia",
     author: "Veritas Assessoria Técnica",
