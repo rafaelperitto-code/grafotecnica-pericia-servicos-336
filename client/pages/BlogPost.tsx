@@ -73,6 +73,57 @@ export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? blogPostsData[slug] : null;
 
+  useEffect(() => {
+    if (post) {
+      // Atualizar title da página
+      document.title = post.title;
+
+      // Atualizar/criar meta description
+      let metaDescription = document.querySelector('meta[name="description"]');
+      if (!metaDescription) {
+        metaDescription = document.createElement("meta");
+        metaDescription.setAttribute("name", "description");
+        document.head.appendChild(metaDescription);
+      }
+      metaDescription.setAttribute("content", post.metaDescription);
+
+      // Atualizar/criar meta keywords
+      let metaKeywords = document.querySelector('meta[name="keywords"]');
+      if (!metaKeywords) {
+        metaKeywords = document.createElement("meta");
+        metaKeywords.setAttribute("name", "keywords");
+        document.head.appendChild(metaKeywords);
+      }
+      metaKeywords.setAttribute("content", post.keywords);
+
+      // Adicionar Schema.org structured data
+      const schemaScript = document.createElement("script");
+      schemaScript.type = "application/ld+json";
+      schemaScript.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.metaDescription,
+        keywords: post.keywords,
+        datePublished: post.date,
+        author: {
+          "@type": "Organization",
+          name: post.author,
+          url: "https://veritasassessoria.com.br",
+        },
+        publisher: {
+          "@type": "Organization",
+          name: post.author,
+        },
+      });
+      document.head.appendChild(schemaScript);
+
+      return () => {
+        document.head.removeChild(schemaScript);
+      };
+    }
+  }, [post]);
+
   if (!post) {
     return (
       <div className="min-h-screen bg-slate-900">
