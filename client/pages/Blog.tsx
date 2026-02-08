@@ -14,9 +14,9 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "A Importância da Perícia Grafotécnica em Processos Legais",
+    title: "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais",
     excerpt:
-      "Entenda como a análise grafotécnica pode ser determinante em casos judiciais e qual é o papel do perito grafotécnico.",
+      "Entenda como a perícia grafotécnica e documentoscopia podem ser determinantes em casos judiciais. Conheça as diferenças entre essas duas disciplinas científicas e seu papel essencial.",
     date: "15 de janeiro de 2024",
     category: "Perícia",
     slug: "importancia-pericia-grafotecnica",
