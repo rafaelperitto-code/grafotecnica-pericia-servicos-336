@@ -179,6 +179,14 @@ export default function BlogPost() {
         publisher: {
           "@type": "Organization",
           name: post.author,
+          logo: {
+            "@type": "ImageObject",
+            url: "https://veritasassessoria.com.br/logo.png",
+          },
+        },
+        mainEntity: {
+          "@type": "Article",
+          name: post.title,
         },
       });
       document.head.appendChild(schemaScript);
