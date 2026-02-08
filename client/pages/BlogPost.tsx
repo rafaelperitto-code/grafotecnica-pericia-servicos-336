@@ -25,11 +25,11 @@ const blogPostsData: Record<
     category: "Perícia",
     author: "Veritas Assessoria Técnica",
     content: `
-# A Importância da Perícia Grafotécnica em Processos Legais
+# A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais
 
-A perícia grafotécnica é uma disciplina científica que desempenha papel fundamental em diversos processos legais, judiciais e investigativos. A análise cuidadosa da escrita pode revelar informações críticas que determinam o resultado de casos complexos envolvendo documentos e assinaturas questionadas.
+A perícia grafotécnica e a documentoscopia são disciplinas científicas que desempenham papel fundamental em diversos processos legais, judiciais e investigativos. A análise cuidadosa da escrita manuscrita e do documento físico pode revelar informações críticas que determinam o resultado de casos complexos envolvendo documentos e assinaturas questionadas.
 
-Neste artigo, exploraremos como a perícia grafotécnica funciona e por que ela é essencial para proteger seus direitos.
+Neste artigo, exploraremos como a perícia grafotécnica e a documentoscopia funcionam e por que são essenciais para proteger seus direitos.
 
 ## O que é Perícia Grafotécnica?
 
