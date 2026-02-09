@@ -94,15 +94,25 @@ Essa metodologia científica permite ao perito grafotécnico chegar a conclusõe
 
 ## Metodologia Científica da Documentoscopia
 
-A documentoscopia complementa a análise grafotécnica estudando:
+A documentoscopia analisa o documento como um todo para detectar falsificações, estudando:
 
-- **Características do Papel**: Composição, idade aparente, marcas d'água
-- **Características da Tinta**: Tipo, composição, compatibilidade com a suposta data do documento
-- **Impressões e Reproduções**: Análise de impressoras, fotocopiadoras, assinadores
-- **Marcas Físicas**: Rasgos, dobras, manchas que indicam alterações
-- **Envelhecimento**: Estudo do aspecto do documento ao longo do tempo
+- **Características do Papel**: Composição, tipo, marca d'água, envelhecimento
+- **Características da Tinta/Impressão**: Tipo, cor, compatibilidade com data suposta do documento
+- **Impressões e Reproduções**: Análise de impressoras, fotocopiadoras, máquinas de escrever
+- **Marcas de Segurança**: Hologramas, selos de segurança, elementos anti-falsificação
+- **Marcas Físicas**: Rasgos, dobras, manchas, alterações visíveis ou ocultas
+- **Envelhecimento**: Estudo do aspecto do documento e sua compatibilidade com sua suposta idade
+- **Características Especiais**: Análise específica conforme tipo de documento (passaporte, cédula, diplomas, etc.)
 
-Quando perícia grafotécnica e documentoscopia são combinadas, oferece-se análise completa tanto da escrita manuscrita quanto do suporte físico do documento.
+A documentoscopia pode identificar se um documento é genuíno ou falsificado através da análise de qualquer característica física do documento.
+
+## Análise Completa: Grafotécnica + Documentoscopia
+
+Quando perícia grafotécnica e documentoscopia são combinadas, oferece-se análise completa:
+- **Perícia Grafotécnica** verifica a autenticidade da **escrita** (assinatura ou texto manuscrito)
+- **Documentoscopia** verifica a autenticidade do **documento como um todo** (se é genuíno ou falsificado)
+
+Essa combinação oferece parecer técnico robusto e fundamentado sobre a autenticidade do documento e sua escrita.
 
 ## Pareceres Técnicos em Contextos Judiciais
 
