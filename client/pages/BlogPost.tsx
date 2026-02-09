@@ -133,15 +133,26 @@ A perícia grafotécnica oferece:
 
 ## Por Que Contratar um Perito em Grafotécnica e/ou Documentoscopia?
 
-Você deve considerar contratar um perito quando:
-- Há questionamento sobre autenticidade de assinatura ou texto manuscrito
-- Documentos precisam ser validados para processos legais
-- Investigação de falsificação de assinatura ou alteração de documento é necessária
-- Características físicas do documento (papel, tinta, impressão) necessitam análise
-- Você necessita parecer técnico completo para juízo
-- Deseja análise que considere tanto a escrita quanto o suporte físico do documento
+**Contrate um perito em PERÍCIA GRAFOTÉCNICA quando:**
+- Há questionamento sobre autenticidade de assinatura
+- Deseja verificar se um texto manuscrito é genuíno
+- Suspeita de falsificação/imitação de assinatura
+- Necessita parecer técnico sobre escrita para juízo
+- Está envolvido em disputas sobre autoria de escrita
 
-Um perito qualificado em ambas as disciplinas oferece parecer mais completo e fundamentado.
+**Contrate um perito em DOCUMENTOSCOPIA quando:**
+- Há suspeita de falsificação de documento (RG, CNH, Passaporte, etc.)
+- Documentos financeiros (cheques, cédulas) precisam ser verificados
+- Diplomas, certidões ou documentos administrativos precisam validação
+- Identifica possível alteração, rasura ou adulteração em documento
+- Necessita certificar autenticidade de documento para juízo
+
+**Contrate um perito em AMBAS as disciplinas quando:**
+- Necessita análise completa: verificar se tanto a escrita quanto o documento são autênticos
+- Quer parecer técnico robusto que considere todos os aspectos (escrita e documento)
+- Busca conclusões fundamentadas cientificamente para processos legais complexos
+
+Um perito qualificado em **ambas as disciplinas** oferece parecer completo e altamente fundamentado.
 
 ## Perícia Grafotécnica vs Documentoscopia: Diferenças e Complementaridade
 
