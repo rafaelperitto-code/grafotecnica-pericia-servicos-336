@@ -41,14 +41,21 @@ A perícia grafotécnica é o estudo científico da **escrita manuscrita** com o
 
 Utilizando metodologia comprovada e técnicas forenses avançadas, o perito grafotécnico consegue determinar com alto grau de confiabilidade características importantes da escrita manuscrita, oferecendo pareceres que auxiliam em decisões judiciais.
 
-## Documentoscopia: Uma Disciplina Complementar
+## Documentoscopia: Uma Disciplina Diferente e Complementar
 
-É importante esclarecer que **documentoscopia é uma disciplina diferente** da perícia grafotécnica, embora complementar:
+É importante esclarecer que **documentoscopia é uma disciplina completamente diferente** da perícia grafotécnica, embora sejam complementares:
 
-- **Perícia Grafotécnica**: Analisa a **escrita manuscrita** (traços, pressão, movimento, características do indivíduo)
-- **Documentoscopia**: Analisa o **documento físico** (papel, tinta, impressão, marcas de máquinas, envelhecimento, rasgos, etc.)
+- **Perícia Grafotécnica**: Analisa especificamente a **escrita manuscrita** (traços, pressão, movimento, características individuais de quem escreve, autenticidade de assinaturas)
 
-Um perito especializado em ambas as áreas pode oferecer análise completa e holística dos documentos, considerando tanto a escrita quanto as características físicas do suporte.
+- **Documentoscopia**: Analisa o **documento como um todo** para comprovar se houve ou não falsificações. Exemplos de documentos analisados:
+  - Documentos de identidade (RG, CNH, Passaporte)
+  - Documentos financeiros (cheques, cédulas, cartões)
+  - Documentos administrativos (diplomas, certidões, contratos)
+  - Qualquer tipo de documento que necessite verificação de autenticidade
+
+A documentoscopia analisa características como papel, tinta, impressão, marcas de máquinas, envelhecimento, rasgos, marcas d'água, hologramas e qualquer aspecto físico do documento que indique falsificação.
+
+Um perito especializado em **ambas as áreas** pode oferecer análise completa: verificar a autenticidade da escrita (perícia grafotécnica) E a autenticidade do documento como um todo (documentoscopia).
 
 ## Principais Aplicações da Perícia Grafotécnica em Processos Legais
 
