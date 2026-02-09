@@ -29,8 +29,9 @@ export default function Index() {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
-              Serviços profissionais de perícia grafotécnica com fundamentação
-              científica, pareceres técnicos e consultoria especializada.
+              Serviços profissionais de perícia grafotécnica e documentoscopia
+              com fundamentação científica, pareceres técnicos e consultoria
+              especializada.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
