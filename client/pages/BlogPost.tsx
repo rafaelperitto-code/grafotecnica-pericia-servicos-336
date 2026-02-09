@@ -18,9 +18,9 @@ const blogPostsData: Record<
   "importancia-pericia-grafotecnica": {
     title: "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais - Veritas",
     metaDescription:
-      "Entenda a importância da perícia grafotécnica e documentoscopia em processos legais. Autenticação de assinatura, falsificação, análise completa de documentos com metodologia científica.",
+      "Entenda a diferença entre perícia grafotécnica (análise de escrita) e documentoscopia (análise de documentos). Autenticação de assinatura, falsificação de documentos, RG, CNH, Passaporte com metodologia científica.",
     keywords:
-      "perícia grafotécnica, documentoscopia, autenticação assinatura, falsificação assinatura, análise documentos, perícia forense, documentoscopia forense, análise escrita",
+      "perícia grafotécnica, documentoscopia, autenticação assinatura, falsificação de documentos, falsificação RG, falsificação passaporte, análise de documentos, perícia forense, documentoscopia forense, análise escrita, detecção de fraude documental",
     date: "15 de janeiro de 2024",
     category: "Perícia",
     author: "Veritas Assessoria Técnica",
