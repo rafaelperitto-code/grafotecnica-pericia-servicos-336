@@ -44,9 +44,14 @@ export default function Header() {
           >
             Contato
           </a>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium text-sm transition-colors">
+          <a
+            href="https://wa.me/5541996297915"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium text-sm transition-colors"
+          >
             Solicitar Serviço
-          </button>
+          </a>
         </div>
       </nav>
     </header>
