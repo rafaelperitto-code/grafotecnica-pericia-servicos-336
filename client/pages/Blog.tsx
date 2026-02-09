@@ -16,7 +16,7 @@ const blogPosts: BlogPost[] = [
     id: "1",
     title: "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais",
     excerpt:
-      "Entenda como a perícia grafotécnica e documentoscopia podem ser determinantes em casos judiciais. Conheça as diferenças entre essas duas disciplinas científicas e seu papel essencial.",
+      "Entenda as diferenças entre perícia grafotécnica (análise de escrita) e documentoscopia (análise de documentos como RG, CNH, Passaporte). Conheça como essas disciplinas científicas são essenciais para detectar falsificações.",
     date: "15 de janeiro de 2024",
     category: "Perícia",
     slug: "importancia-pericia-grafotecnica",
