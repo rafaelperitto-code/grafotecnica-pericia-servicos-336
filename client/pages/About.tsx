@@ -18,8 +18,8 @@ export default function About() {
               Sobre Mim
             </h1>
             <p className="text-lg text-gray-300 mb-8">
-              Profissional dedicado à análise grafotécnica com rigor científico
-              e ética profissional exemplar
+              Perito grafotécnico e documentoscópista dedicado à análise
+              científica com rigor técnico e ética profissional exemplar
             </p>
           </div>
         </div>
