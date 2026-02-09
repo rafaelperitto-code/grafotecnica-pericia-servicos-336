@@ -14,7 +14,8 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais",
+    title:
+      "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais",
     excerpt:
       "Entenda as diferenças entre perícia grafotécnica (análise de escrita) e documentoscopia (análise de documentos como RG, CNH, Passaporte). Conheça como essas disciplinas científicas são essenciais para detectar falsificações.",
     date: "15 de janeiro de 2024",
@@ -107,7 +108,10 @@ export default function Blog() {
 
                   <div className="inline-flex items-center gap-2 text-blue-400 group-hover:text-blue-300 font-semibold transition-colors">
                     Ler Artigo
-                    <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight
+                      size={18}
+                      className="group-hover:translate-x-1 transition-transform"
+                    />
                   </div>
                 </article>
               </Link>

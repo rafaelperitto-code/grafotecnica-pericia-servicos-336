@@ -16,7 +16,8 @@ const blogPostsData: Record<
   }
 > = {
   "importancia-pericia-grafotecnica": {
-    title: "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais - Veritas",
+    title:
+      "A Importância da Perícia Grafotécnica e Documentoscopia em Processos Legais - Veritas",
     metaDescription:
       "Entenda a diferença entre perícia grafotécnica (análise de escrita) e documentoscopia (análise de documentos). Autenticação de assinatura, falsificação de documentos, RG, CNH, Passaporte com metodologia científica.",
     keywords:
@@ -288,7 +289,9 @@ export default function BlogPost() {
               <span>{post.date}</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-blue-400 font-semibold">{post.category}</span>
+              <span className="text-blue-400 font-semibold">
+                {post.category}
+              </span>
             </div>
             <div>
               <span>Por {post.author}</span>
@@ -305,7 +308,10 @@ export default function BlogPost() {
               {post.content.split("\n\n").map((paragraph, index) => {
                 if (paragraph.startsWith("# ")) {
                   return (
-                    <h2 key={index} className="text-3xl font-bold text-white mt-8 mb-4">
+                    <h2
+                      key={index}
+                      className="text-3xl font-bold text-white mt-8 mb-4"
+                    >
                       {paragraph.replace("# ", "")}
                     </h2>
                   );

@@ -1,6 +1,13 @@
 import Header from "@/components/Header";
 import ContactForm from "@/components/ContactForm";
-import { CheckCircle, FileText, Users, Award, ArrowRight, Zap } from "lucide-react";
+import {
+  CheckCircle,
+  FileText,
+  Users,
+  Award,
+  ArrowRight,
+  Zap,
+} from "lucide-react";
 import { useState } from "react";
 
 export default function Index() {
@@ -35,9 +42,15 @@ export default function Index() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 group">
+              <button
+                onClick={() => setIsFormOpen(true)}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2 group"
+              >
                 Solicitar Avaliação
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                <ArrowRight
+                  size={18}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
               </button>
             </div>
           </div>
@@ -68,20 +81,29 @@ export default function Index() {
               </h3>
               <p className="text-gray-300 mb-4">
                 Emissão de pareceres técnicos fundamentados em análise
-                grafológica com metodologia científica comprovada para
-                contextos legais, corporativos e investigativos.
+                grafológica com metodologia científica comprovada para contextos
+                legais, corporativos e investigativos.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Análise pericial
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Documentação técnica
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Validade em juízo
                 </li>
               </ul>
@@ -102,15 +124,24 @@ export default function Index() {
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Quesitos específicos
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Conformidade legal
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Consultoria prévia
                 </li>
               </ul>
@@ -126,20 +157,29 @@ export default function Index() {
               </h3>
               <p className="text-gray-300 mb-4">
                 Discussão inicial e avaliação exploratória dos documentos ou
-                questões grafotécnicas antes da perícia formal, orientando
-                sobre viabilidade e procedimentos.
+                questões grafotécnicas antes da perícia formal, orientando sobre
+                viabilidade e procedimentos.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Avaliação preliminar
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Orientação técnica
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Sem compromisso
                 </li>
               </ul>
@@ -154,21 +194,30 @@ export default function Index() {
                 Documentoscopia
               </h3>
               <p className="text-gray-300 mb-4">
-                Análise completa de documentos para comprovar autenticidade
-                e detectar falsificações em RG, CNH, Passaporte, cédulas,
-                diplomas e qualquer tipo de documento.
+                Análise completa de documentos para comprovar autenticidade e
+                detectar falsificações em RG, CNH, Passaporte, cédulas, diplomas
+                e qualquer tipo de documento.
               </p>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Análise de documentos
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Detecção de falsificação
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  <CheckCircle
+                    size={16}
+                    className="text-green-400 flex-shrink-0"
+                  />
                   Parecer técnico forense
                 </li>
               </ul>
@@ -187,18 +236,25 @@ export default function Index() {
               </h2>
               <ul className="space-y-4">
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle
+                    className="text-blue-400 flex-shrink-0 mt-1"
+                    size={20}
+                  />
                   <div>
                     <p className="font-semibold text-white">
                       Expertise Reconhecida
                     </p>
                     <p className="text-gray-400 text-sm">
-                      Profissional certificado com metodologia científica comprovada
+                      Profissional certificado com metodologia científica
+                      comprovada
                     </p>
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle
+                    className="text-blue-400 flex-shrink-0 mt-1"
+                    size={20}
+                  />
                   <div>
                     <p className="font-semibold text-white">
                       Sigilo Profissional
@@ -209,24 +265,32 @@ export default function Index() {
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle
+                    className="text-blue-400 flex-shrink-0 mt-1"
+                    size={20}
+                  />
                   <div>
                     <p className="font-semibold text-white">
                       Relatórios Detalhados
                     </p>
                     <p className="text-gray-400 text-sm">
-                      Documentação técnica clara e acessível para diferentes contextos
+                      Documentação técnica clara e acessível para diferentes
+                      contextos
                     </p>
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <CheckCircle className="text-blue-400 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle
+                    className="text-blue-400 flex-shrink-0 mt-1"
+                    size={20}
+                  />
                   <div>
                     <p className="font-semibold text-white">
                       Atendimento Personalizado
                     </p>
                     <p className="text-gray-400 text-sm">
-                      Soluções customizadas de acordo com suas necessidades específicas
+                      Soluções customizadas de acordo com suas necessidades
+                      específicas
                     </p>
                   </div>
                 </li>
@@ -269,7 +333,10 @@ export default function Index() {
       </section>
 
       {/* CTA Section */}
-      <section id="contato" className="py-20 md:py-32 bg-gradient-to-r from-blue-900 to-slate-900 text-white">
+      <section
+        id="contato"
+        className="py-20 md:py-32 bg-gradient-to-r from-blue-900 to-slate-900 text-white"
+      >
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Pronto para Analisar?
@@ -280,7 +347,10 @@ export default function Index() {
           </p>
 
           <div className="flex justify-center">
-            <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+            <button
+              onClick={() => setIsFormOpen(true)}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+            >
               Solicitar Orçamento
             </button>
           </div>
@@ -292,7 +362,9 @@ export default function Index() {
             </div>
             <div>
               <p className="font-semibold mb-1">Email</p>
-              <p className="text-gray-300">contato.veritasassessoria@gmail.com</p>
+              <p className="text-gray-300">
+                contato.veritasassessoria@gmail.com
+              </p>
             </div>
           </div>
         </div>
@@ -302,8 +374,8 @@ export default function Index() {
       <footer className="bg-slate-950 border-t border-blue-900 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
           <p>
-            © 2024 Veritas Assessoria Técnica. Todos os direitos reservados. | Sigilo
-            profissional garantido
+            © 2024 Veritas Assessoria Técnica. Todos os direitos reservados. |
+            Sigilo profissional garantido
           </p>
         </div>
       </footer>

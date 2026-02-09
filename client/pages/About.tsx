@@ -74,7 +74,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex gap-3">
-                  <Briefcase className="text-blue-400 flex-shrink-0" size={20} />
+                  <Briefcase
+                    className="text-blue-400 flex-shrink-0"
+                    size={20}
+                  />
                   <div>
                     <p className="font-semibold text-white">
                       Experiência Forense
@@ -115,8 +118,8 @@ export default function About() {
               </h3>
               <p className="text-gray-300">
                 Orientação especializada na formulação de quesitos periciais
-                adequados, garantindo análise completa conforme normas
-                técnicas e jurídicas aplicáveis.
+                adequados, garantindo análise completa conforme normas técnicas
+                e jurídicas aplicáveis.
               </p>
             </div>
 
@@ -152,11 +155,14 @@ export default function About() {
             Vamos Trabalhar Juntos?
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-            Entre em contato para conhecer como posso ajudá-lo com seus
-            desafios de análise grafotécnica
+            Entre em contato para conhecer como posso ajudá-lo com seus desafios
+            de análise grafotécnica
           </p>
 
-          <button onClick={() => setIsFormOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+          <button
+            onClick={() => setIsFormOpen(true)}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+          >
             Solicitar Serviço
           </button>
         </div>
@@ -169,8 +175,8 @@ export default function About() {
       <footer className="bg-slate-950 border-t border-blue-900 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
           <p>
-            © 2024 Veritas Assessoria Técnica. Todos os direitos reservados. | Sigilo
-            profissional garantido
+            © 2024 Veritas Assessoria Técnica. Todos os direitos reservados. |
+            Sigilo profissional garantido
           </p>
         </div>
       </footer>
