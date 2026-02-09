@@ -56,7 +56,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Service Card 1 */}
             <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
               <div className="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center mb-4">
@@ -140,6 +140,35 @@ export default function Index() {
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
                   Sem compromisso
+                </li>
+              </ul>
+            </div>
+
+            {/* Service Card 4 */}
+            <div className="bg-slate-700 rounded-xl p-8 border border-blue-700 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/20 transition-all">
+              <div className="w-12 h-12 bg-emerald-900 rounded-lg flex items-center justify-center mb-4">
+                <FileText className="text-emerald-400" size={24} />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-3">
+                Documentoscopia
+              </h3>
+              <p className="text-gray-300 mb-4">
+                Análise completa de documentos para comprovar autenticidade
+                e detectar falsificações em RG, CNH, Passaporte, cédulas,
+                diplomas e qualquer tipo de documento.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-300">
+                <li className="flex items-center gap-2">
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  Análise de documentos
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  Detecção de falsificação
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle size={16} className="text-green-400 flex-shrink-0" />
+                  Parecer técnico forense
                 </li>
               </ul>
             </div>
