@@ -52,8 +52,8 @@ export default function Index() {
               Nossos Serviços
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Soluções profissionais em análise grafotécnica com fundamentação
-              científica e rigor técnico
+              Soluções profissionais em perícia grafotécnica e documentoscopia
+              com fundamentação científica e rigor técnico
             </p>
           </div>
 
