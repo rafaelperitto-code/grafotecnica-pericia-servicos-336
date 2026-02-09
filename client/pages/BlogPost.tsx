@@ -81,11 +81,11 @@ A documentoscopia é essencial para identificar documentos falsos ou alterados. 
 
 Quando perícia grafotécnica e documentoscopia são utilizadas em conjunto, oferece-se análise completa e confiável sobre a autenticidade tanto da escrita quanto do documento em si.
 
-### 3. Investigações Criminais e Forenses
-Em casos de estelionato, falsificação de documentos e crimes relacionados, a análise grafotécnica fornece evidências técnicas valiosas. O trabalho do perito grafotécnico em investigações contribui significativamente para resolução de casos complexos.
+### 4. Investigações Criminais e Forenses
+Em casos de estelionato, falsificação de documentos e crimes relacionados, a análise grafotécnica e documentoscopia fornecem evidências técnicas valiosas. O trabalho do perito em investigações contribui significativamente para resolução de casos complexos.
 
-### 4. Litígios Comerciais e Familiares
-Em disputas envolvendo contratos questionados ou testamentos contestados, a perícia grafotécnica oferece certeza técnica baseada em análise científica.
+### 5. Litígios Comerciais e Familiares
+Em disputas envolvendo contratos questionados, testamentos contestados ou documentos suspeitos, a perícia grafotécnica e documentoscopia oferecem certeza técnica baseada em análise científica fundamentada.
 
 ## Metodologia Científica da Perícia Grafotécnica
 
