@@ -69,10 +69,17 @@ Uma das aplicações mais comuns é a verificação de autenticidade de assinatu
 
 A autenticação de assinatura pode determinar se um documento é válido ou falsificado, afetando diretamente direitos e obrigações legais.
 
-### 2. Detecção de Falsificação de Assinatura
+### 2. Detecção de Falsificação de Assinatura (Perícia Grafotécnica)
 A perícia grafotécnica é essencial para identificar assinaturas falsificadas, protegendo os direitos das partes envolvidas. A detecção de falsificação de assinatura previne estelionatos, fraudes em cheques, contratos falsificados e outros crimes que envolvam falsificação de escrita manuscrita.
 
-Quando a documentoscopia é acrescentada à análise, pode-se também identificar alterações no documento físico (papel, tinta, impressão), oferecendo parecer ainda mais completo.
+### 3. Detecção de Falsificação de Documentos (Documentoscopia)
+A documentoscopia é essencial para identificar documentos falsos ou alterados. Exemplos:
+- **Falsificação de documentos de identidade**: RG, CNH, Passaporte
+- **Falsificação de documentos financeiros**: Cheques, cédulas, cartões
+- **Falsificação de documentos administrativos**: Diplomas, certidões, contratos
+- **Detecção de alterações**: Rasuras, acréscimos, substituição de folhas
+
+Quando perícia grafotécnica e documentoscopia são utilizadas em conjunto, oferece-se análise completa e confiável sobre a autenticidade tanto da escrita quanto do documento em si.
 
 ### 3. Investigações Criminais e Forenses
 Em casos de estelionato, falsificação de documentos e crimes relacionados, a análise grafotécnica fornece evidências técnicas valiosas. O trabalho do perito grafotécnico em investigações contribui significativamente para resolução de casos complexos.
