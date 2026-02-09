@@ -96,7 +96,7 @@ export default function About() {
             Áreas de Especialização
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-slate-700 rounded-xl p-8 border border-blue-700">
               <h3 className="text-xl font-bold text-white mb-4">
                 Parecer Técnico
@@ -127,6 +127,17 @@ export default function About() {
                 Avaliação exploratória inicial dos documentos e questões
                 grafotécnicas, orientando sobre viabilidade, procedimentos e
                 próximos passos sem compromisso.
+              </p>
+            </div>
+
+            <div className="bg-slate-700 rounded-xl p-8 border border-emerald-700">
+              <h3 className="text-xl font-bold text-white mb-4">
+                Documentoscopia
+              </h3>
+              <p className="text-gray-300">
+                Análise completa de documentos para detectar falsificações em
+                RG, CNH, Passaporte, cédulas, diplomas e qualquer tipo de
+                documento com metodologia científica forense.
               </p>
             </div>
           </div>
