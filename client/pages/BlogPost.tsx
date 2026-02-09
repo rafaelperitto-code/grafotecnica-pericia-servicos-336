@@ -143,15 +143,25 @@ Você deve considerar contratar um perito quando:
 
 Um perito qualificado em ambas as disciplinas oferece parecer mais completo e fundamentado.
 
-## Perícia Grafotécnica e Documentoscopia: Ferramentas Complementares
+## Perícia Grafotécnica vs Documentoscopia: Diferenças e Complementaridade
 
-A perícia grafotécnica e a documentoscopia são duas disciplinas diferentes mas complementares. Enquanto a perícia grafotécnica analisa a escrita manuscrita, a documentoscopia analisa as características físicas do documento. Quando utilizadas em conjunto, oferecem análise completa e confiável dos documentos.
+É fundamental entender as diferenças entre essas duas disciplinas:
 
-## Conclusão
+| Aspecto | Perícia Grafotécnica | Documentoscopia |
+|--------|---------------------|-----------------|
+| **Objeto de Análise** | Escrita manuscrita (traços, pressão, movimento) | Documento inteiro (origem, material, autenticidade) |
+| **Objetivo** | Autenticar assinatura/texto ou identificar autor | Comprovar se documento é genuíno ou falsificado |
+| **Exemplos** | Assinatura em contrato, texto em carta | RG, CNH, Passaporte, Cédula, Diploma |
+| **Detecta** | Falsificação de escrita, imitação de assinatura | Falsificação de documentos, alterações, adulterações |
 
-A perícia grafotécnica e a documentoscopia são ferramentas indispensáveis para garantir justiça e proteção de direitos em contextos legais. Sua aplicação adequada pode fazer diferença significativa na resolução de casos complexos, oferecendo certeza técnica quando outros métodos são insuficientes.
+## Conclusão: Proteção Completa Através de Análise Técnica
 
-Um perito qualificado em ambas as disciplinas consegue fornecer parecer técnico completo que considere tanto a análise da escrita manuscrita quanto as características físicas do documento.
+A perícia grafotécnica e a documentoscopia são **duas disciplinas diferentes mas complementares** que oferecem ferramentas indispensáveis para garantir justiça e proteção de direitos em contextos legais.
+
+- **Perícia Grafotécnica** responde: "*Esta assinatura/escrita é autêntica?*"
+- **Documentoscopia** responde: "*Este documento é genuíno?*"
+
+Um perito qualificado em **ambas as disciplinas** consegue fornecer parecer técnico robusto e completo, respondendo ambas as perguntas e oferecendo análise holística e fundamentada cientificamente.
 
 Se você necessita de análise grafotécnica, documentoscopia ou parecer técnico completo para seus documentos ou situação legal, entre em contato conosco para uma avaliação especializada e consultoria prévia sem compromisso.
     `,
