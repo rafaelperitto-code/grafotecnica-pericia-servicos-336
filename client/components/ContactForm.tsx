@@ -19,7 +19,7 @@ export default function ContactForm({ isOpen, onClose }: ContactFormProps) {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -158,7 +158,9 @@ ${formData.message}
                       >
                         <label className="block text-sm font-medium text-gray-300 mb-2">
                           {field.label}
-                          {field.required && <span className="text-red-400"> *</span>}
+                          {field.required && (
+                            <span className="text-red-400"> *</span>
+                          )}
                         </label>
                         <input
                           type={field.type}

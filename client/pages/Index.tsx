@@ -32,7 +32,9 @@ export default function Index() {
               Pronto para começar?
             </h2>
             <p className="text-xl text-gray-300 mb-12">
-              Entre em contato conosco para discutir sua situação e descobrir como podemos ajudá-lo com nossa expertise em perícia grafotécnica e documentoscopia.
+              Entre em contato conosco para discutir sua situação e descobrir
+              como podemos ajudá-lo com nossa expertise em perícia grafotécnica
+              e documentoscopia.
             </p>
             <button
               onClick={() => setIsFormOpen(true)}
@@ -40,16 +42,16 @@ export default function Index() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 group-hover:from-blue-700 group-hover:to-cyan-700 transition-all duration-300"></div>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 blur group-hover:blur-lg opacity-30 group-hover:opacity-50 transition-all duration-300"></div>
-              <div className="relative">
-                Solicitar Orçamento
-              </div>
+              <div className="relative">Solicitar Orçamento</div>
             </button>
           </div>
 
           {/* Contact Info Cards */}
           <div className="grid md:grid-cols-3 gap-8 mt-20">
             <div className="bg-gradient-to-br from-blue-600/10 to-purple-600/10 rounded-2xl p-8 border border-blue-500/20 backdrop-blur-sm text-center">
-              <div className="text-3xl font-bold text-blue-400 mb-2">WhatsApp</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">
+                WhatsApp
+              </div>
               <a
                 href="https://wa.me/5541996297915"
                 target="_blank"
@@ -71,7 +73,9 @@ export default function Index() {
             </div>
 
             <div className="bg-gradient-to-br from-blue-600/10 to-purple-600/10 rounded-2xl p-8 border border-blue-500/20 backdrop-blur-sm text-center">
-              <div className="text-3xl font-bold text-blue-400 mb-2">Sigilo</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">
+                Sigilo
+              </div>
               <p className="text-gray-300">
                 Confidencialidade profissional garantida
               </p>

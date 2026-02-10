@@ -56,7 +56,9 @@ export default function About() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl leading-relaxed">
-              Perito grafotécnico e documentoscópista dedicado à análise científica com rigor técnico, metodologia comprovada e ética profissional exemplar.
+              Perito grafotécnico e documentoscópista dedicado à análise
+              científica com rigor técnico, metodologia comprovada e ética
+              profissional exemplar.
             </p>
           </motion.div>
         </div>
@@ -105,15 +107,24 @@ export default function About() {
                 </span>
               </motion.h2>
 
-              <motion.p variants={itemVariants} className="text-gray-300 mb-6 leading-relaxed">
-                Com mais de 15 anos de experiência em perícia grafotécnica e documentoscopia, desenvolvi expertise em análise forense de documentos, autenticação de assinatura e detecção de falsificações com rigor científico e metodologia comprovada.
+              <motion.p
+                variants={itemVariants}
+                className="text-gray-300 mb-6 leading-relaxed"
+              >
+                Com mais de 15 anos de experiência em perícia grafotécnica e
+                documentoscopia, desenvolvi expertise em análise forense de
+                documentos, autenticação de assinatura e detecção de
+                falsificações com rigor científico e metodologia comprovada.
               </motion.p>
 
               <motion.p
                 variants={itemVariants}
                 className="text-gray-300 mb-8 leading-relaxed"
               >
-                Minha metodologia é fundamentada em caligrafia científica, técnicas forenses e análise pericial, combinando perícia grafotécnica e documentoscopia para garantir pareceres técnicos de alta qualidade, confiabilidade e validade jurídica.
+                Minha metodologia é fundamentada em caligrafia científica,
+                técnicas forenses e análise pericial, combinando perícia
+                grafotécnica e documentoscopia para garantir pareceres técnicos
+                de alta qualidade, confiabilidade e validade jurídica.
               </motion.p>
 
               {/* Credentials */}
@@ -150,7 +161,10 @@ export default function About() {
                       className="flex gap-4 group"
                     >
                       <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-600/20 to-purple-600/20 flex items-center justify-center flex-shrink-0 group-hover:from-blue-600/40 group-hover:to-purple-600/40 transition-all duration-300">
-                        <Icon className="text-blue-400 group-hover:text-blue-300 transition-colors" size={24} />
+                        <Icon
+                          className="text-blue-400 group-hover:text-blue-300 transition-colors"
+                          size={24}
+                        />
                       </div>
                       <div>
                         <p className="font-semibold text-white group-hover:text-blue-300 transition-colors">
@@ -185,7 +199,8 @@ export default function About() {
               Áreas de Especialização
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Expertise em múltiplas disciplinas da perícia técnica e análise forense
+              Expertise em múltiplas disciplinas da perícia técnica e análise
+              forense
             </p>
           </motion.div>
 
@@ -270,7 +285,8 @@ export default function About() {
               Vamos Trabalhar Juntos?
             </h2>
             <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-              Entre em contato para conhecer como posso ajudá-lo com seus desafios de análise grafotécnica e documentoscopia.
+              Entre em contato para conhecer como posso ajudá-lo com seus
+              desafios de análise grafotécnica e documentoscopia.
             </p>
 
             <motion.button
