@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface ContactFormProps {
   isOpen: boolean;
@@ -60,117 +61,156 @@ ${formData.message}
     }, 2000);
   };
 
-  if (!isOpen) return null;
-
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-slate-800 rounded-xl max-w-md w-full border border-blue-700">
-        <div className="flex items-center justify-between p-6 border-b border-blue-700">
-          <h2 className="text-xl font-bold text-white">Solicitar Serviço</h2>
-          <button
+    <AnimatePresence>
+      {isOpen && (
+        <>
+          {/* Backdrop */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             onClick={onClose}
-            className="text-gray-400 hover:text-white transition-colors"
+            className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
+          />
+
+          {/* Modal */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.95, y: 20 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 flex items-center justify-center z-50 p-4"
           >
-            <X size={24} />
-          </button>
-        </div>
+            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl max-w-md w-full border border-blue-500/20 shadow-2xl shadow-blue-500/10 overflow-hidden">
+              {/* Header */}
+              <div className="flex items-center justify-between p-6 border-b border-blue-500/20 bg-gradient-to-r from-blue-600/10 to-purple-600/10">
+                <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                  Solicitar Serviço
+                </h2>
+                <motion.button
+                  whileHover={{ rotate: 90 }}
+                  onClick={onClose}
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  <X size={24} />
+                </motion.button>
+              </div>
 
-        <form onSubmit={handleSubmit} className="p-6 space-y-4">
-          {submitted ? (
-            <div className="text-center py-8">
-              <p className="text-green-400 font-semibold mb-2">
-                ✓ Mensagem enviada com sucesso!
-              </p>
-              <p className="text-gray-400 text-sm">
-                Entraremos em contato em breve.
-              </p>
+              <form onSubmit={handleSubmit} className="p-6 space-y-4">
+                {submitted ? (
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    className="text-center py-8"
+                  >
+                    <motion.div
+                      animate={{ rotate: 360 }}
+                      transition={{ duration: 2 }}
+                      className="w-16 h-16 rounded-full bg-gradient-to-r from-green-400 to-emerald-500 flex items-center justify-center mx-auto mb-4"
+                    >
+                      <span className="text-2xl">✓</span>
+                    </motion.div>
+                    <p className="text-green-400 font-semibold mb-2">
+                      Mensagem enviada com sucesso!
+                    </p>
+                    <p className="text-gray-400 text-sm">
+                      Entraremos em contato em breve.
+                    </p>
+                  </motion.div>
+                ) : (
+                  <>
+                    {[
+                      {
+                        label: "Nome",
+                        name: "name",
+                        type: "text",
+                        placeholder: "Seu nome",
+                        required: true,
+                      },
+                      {
+                        label: "Email",
+                        name: "email",
+                        type: "email",
+                        placeholder: "seu@email.com",
+                        required: true,
+                      },
+                      {
+                        label: "Telefone/WhatsApp",
+                        name: "phone",
+                        type: "tel",
+                        placeholder: "(41) 9999-9999",
+                        required: false,
+                      },
+                      {
+                        label: "Assunto",
+                        name: "subject",
+                        type: "text",
+                        placeholder: "Assunto da solicitação",
+                        required: true,
+                      },
+                    ].map((field, idx) => (
+                      <motion.div
+                        key={field.name}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: idx * 0.05 }}
+                      >
+                        <label className="block text-sm font-medium text-gray-300 mb-2">
+                          {field.label}
+                          {field.required && <span className="text-red-400"> *</span>}
+                        </label>
+                        <input
+                          type={field.type}
+                          name={field.name}
+                          value={formData[field.name as keyof typeof formData]}
+                          onChange={handleChange}
+                          required={field.required}
+                          className="w-full bg-slate-700/50 border border-blue-600/30 rounded-lg px-4 py-2.5 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200"
+                          placeholder={field.placeholder}
+                        />
+                      </motion.div>
+                    ))}
+
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.2 }}
+                    >
+                      <label className="block text-sm font-medium text-gray-300 mb-2">
+                        Mensagem <span className="text-red-400">*</span>
+                      </label>
+                      <textarea
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                        rows={4}
+                        className="w-full bg-slate-700/50 border border-blue-600/30 rounded-lg px-4 py-2.5 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-200 resize-none"
+                        placeholder="Descreva sua necessidade..."
+                      ></textarea>
+                    </motion.div>
+
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 0.25 }}
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                      type="submit"
+                      className="w-full group relative mt-2 px-6 py-3 rounded-lg font-semibold text-white overflow-hidden transition-all duration-300"
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 group-hover:from-blue-700 group-hover:to-cyan-700 transition-all duration-300"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 blur opacity-30 group-hover:opacity-50 transition-all duration-300"></div>
+                      <div className="relative">Enviar Solicitação</div>
+                    </motion.button>
+                  </>
+                )}
+              </form>
             </div>
-          ) : (
-            <>
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Nome *
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full bg-slate-700 border border-blue-600 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  placeholder="Seu nome"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Email *
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full bg-slate-700 border border-blue-600 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  placeholder="seu@email.com"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Telefone/WhatsApp
-                </label>
-                <input
-                  type="tel"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full bg-slate-700 border border-blue-600 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  placeholder="(41) 9999-9999"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Assunto *
-                </label>
-                <input
-                  type="text"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                  className="w-full bg-slate-700 border border-blue-600 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500"
-                  placeholder="Assunto da solicitação"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Mensagem *
-                </label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={4}
-                  className="w-full bg-slate-700 border border-blue-600 rounded-lg px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 resize-none"
-                  placeholder="Descreva sua necessidade..."
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition-colors"
-              >
-                Enviar Solicitação
-              </button>
-            </>
-          )}
-        </form>
-      </div>
-    </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
   );
 }
